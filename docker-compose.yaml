@@ -1,13 +1,13 @@
 version: '3.8'
 networks: # to create a custom bridge
-  ashubr111: 
+  sombr111: 
 services:
-  ashuapp007:
-    image: ashuciapp:v1 
+  somapp007:
+    image: somciapp:v1 
     build: . 
-    container_name: ashucic1
+    container_name: somcic1
     ports:
     - "1111:80"
     restart: always 
     networks: # use bridge created above 
-    - ashubr111
+    - sombr111
