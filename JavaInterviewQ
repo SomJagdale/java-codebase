@@ -1,0 +1,7 @@
+1. Why wait, notify and notifyAll is defined in Object Class and not on Thread class in Java?
+https://stackoverflow.com/questions/17840397/concept-behind-putting-wait-notify-methods-in-object-class
+
+2. Monitor vs Mutex
+https://stackoverflow.com/questions/38159668/monitor-vs-mutex
+
+3. 
