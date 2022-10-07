@@ -1,12 +1,25 @@
+
 class parent
 {
-    public void func(){System.out.println("Hello Parent");}
+    public void func()
+    {
+        System.out.println("Hello Parent");
+        func2();
+    }
+    public void func2()
+    {
+        System.out.println("Hello Parent func2");
+        
+    }
 }
 
 
 class child extends parent
 {
-    public void func(){System.out.println("Hello Child");}
+    public void func2()
+    {
+        System.out.println("Hello child func2");
+    }
 }
 
 public class Main
