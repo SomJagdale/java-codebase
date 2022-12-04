@@ -1,0 +1,46 @@
+
+What is thread 
+It is a task, light weight process 
+
+Process doesnt run on the CPU but thread
+
+Creating threads 1. Thread 2. Runnable 
+
+class MyClass : extends Threads
+{
+  public void run(){
+  }
+}
+
+class Main
+{
+public static void main(){
+
+MyClass myThread = new MyClass()
+myThread.start();
+}
+}
+
+2. Runnable 
+
+class MyClass : implement Runnable 
+{
+  public void run(){
+  }
+}
+
+class Main
+{
+public static void main(){
+  
+  Runnable run = new MyClass();
+  Thread thread = new Thread (run);
+  thread.start();
+  
+  
+}
+
+}
+Why runnables ?
+In java doesent support multiple inheritance, so we can use runnable here
+
